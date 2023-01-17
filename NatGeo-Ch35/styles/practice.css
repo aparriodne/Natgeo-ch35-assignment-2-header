@@ -1,0 +1,18 @@
+table{
+    border: 1px solid #fcf9f9;
+    border-collapse: collapse;
+}
+td{
+    border-bottom:1px solid #fffdfd;
+    width:100px;
+    text-align:center;
+    background-color:#f6f6f7;
+    
+}
+th{
+    background-color:#aacbfc;
+    color: #0a4296;
+}
+tr:nth-child{
+    background-color: #dedede;
+}

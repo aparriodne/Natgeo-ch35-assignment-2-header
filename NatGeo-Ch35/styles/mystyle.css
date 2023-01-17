@@ -1,0 +1,113 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'jost', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*utilities*/
+
+/*nav*/
+nav.navigation {
+    background-color: #ffffff;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo,.link-search {
+    display: none;
+}
+
+nav .frame {
+    height: 30px;
+    padding: 10px;
+}
+
+a.link-login {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    color: #000000;
+
+}
+
+a.link-seargch {
+  display: noneSS;
+}
+
+a.link-sub {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 0px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px;
+}
+
+a.link-sub:hover {
+    color: #000000;
+    background-color: #ffcc00;
+
+}
+
+a.link-menu {
+    display: none;
+}
+
+a.link-arrows {
+    color: #000000;
+    border-color: #000000;
+    padding:10px;
+}
+
+/*header*/
+div h1 {
+    text-align: center;
+   
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: .5;
+    margin-top: 70px;
+}
+
+.header-p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+header .border {
+    font-size: 200px;
+    text-align: center;
+    margin: 25px 0px 50px 48%;
+    border: 2px solid #ffcc00;
+    width: 25px;
+}
+a.link-sub-2:hover {
+    color: #000000;
+    background-color: #ffcc00;
+
+}
+.link-sub-2{
+    text-decoration: underline solid #ffce00 2px;
+    color: #ffffff;
+    text-underline-offset: 5px;
+}
